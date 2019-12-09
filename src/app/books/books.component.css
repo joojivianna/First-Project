@@ -1,0 +1,37 @@
+table-responsive {
+    list-style-type: none;
+    margin: 0 0 2em 0;
+    padding: 0;
+  }
+  .table-responsive li {
+      display: flex;
+      background-color: #EEE;
+      margin: .5em;
+      padding: .3em 0;
+      height: 1.6em;
+      border-radius: 4px;
+      width: 250px;
+  }
+  .table-responsive a {
+    color: #333;
+    width: 250px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+  }
+  .table-responsive .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    background-color: #405061;
+    padding: 0.8em 0.7em 0 0.7em;
+    position: relative;
+    height: 1.8em;
+    min-width: 16px;
+    text-align: right;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+    line-height: 1em;
+    left: -1px;
+    top: -4px;
+  }

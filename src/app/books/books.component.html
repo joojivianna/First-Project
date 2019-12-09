@@ -1,0 +1,15 @@
+<div>
+	<h2>List of ...</h2>
+	<ul class="table-responsive">
+		<li>
+			<a>
+				<span class="badge">ID</span> Name
+			</a>
+		</li>
+		<li *ngFor="let book of books">
+			<a (click)="onSelect(book.id)">
+				<span class="badge">{{book.id}}</span> {{book.name}}
+			</a>
+		</li>
+	</ul>
+</div>
